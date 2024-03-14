@@ -9,9 +9,9 @@ import (
 )
 
 type course struct {
-	Name     string `json:"name"form:"name"binding:"required,alphaunicode"`
-	Teacher  string `json:"teacher"form:"teacher"binding:"required,alphaunicode"`
-	Duration string `json:"duration"form:"duration"binding:"required,alphaunicode"`
+	Name     string `json:"name" form:"name" binding:"required,alphaunicode"`
+	Teacher  string `json:"teacher" form:"teacher" binding:"required,alphaunicode"`
+	Duration string `json:"duration" form:"duration" binding:"required,alphaunicode"`
 }
 
 func Add(c *gin.Context) {
